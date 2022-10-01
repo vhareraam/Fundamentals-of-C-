@@ -1,0 +1,19 @@
+Write a C program to print sample output.
+
+
+
+Sample Output :
+
+Hello World...!
+
+Hello World...!
+
+Program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello World...!\n";
+    cout<<"Hello World...!";
+    return 0;
+}
