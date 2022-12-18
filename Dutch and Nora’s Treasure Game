@@ -1,0 +1,56 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,x,y,z;
+    cin>>a>>b>>c;
+    if(a >= b && a >= c)
+    {
+        if(b >= c)
+        {
+             cout<<"The treasure is in box which has number "<<b<<endl; 
+        }
+        else
+        {
+           cout<<"The treasure is in box which has number "<<c<<endl;
+        }
+    }
+    else if(b >= a && b >= c)
+ {
+        if(a >= c)
+        {
+            cout<<"The treasure is in box which has number "<<a<<endl;
+        }
+        else
+        {
+            cout<<"The treasure is in box which has number "<<c<<endl;
+        }
+    }
+    else if(a >= b)
+    {
+        cout<<"The treasure is in box which has number "<<a<<endl<<endl;
+    }
+    else
+    {
+        cout<<"The treasure is in box which has number "<<b<<endl;
+    }
+    if(a!=c)
+    {if(a>b)
+    {
+        cout<<"The code to open the box is "<<a-b;
+    }
+    else if(c>b)
+    {
+        cout<<"The code to open the box is  "<<c-b;
+    }
+    
+    else
+    {
+        cout<<"The code to open the box is  "<<a-c;
+    }}
+else 
+    {
+        cout<<"The code to open the box is  "<<a/c;
+    }
+}
+
