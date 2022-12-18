@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int b,n,s;
+    cin>>b>>n>>s;
+    switch(n)
+    {
+        case 1:
+        if(b>s)
+        {
+            b=b+s;
+            cout<<b;
+        }
+        break;
+        case 2:
+        if(b<s)
+        {
+            cout<<"Insufficient Balance";
+        }
+        break;
+        default:
+        cout<<"Invalid Input";
+    }
+}
