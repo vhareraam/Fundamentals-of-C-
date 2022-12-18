@@ -1,0 +1,13 @@
+#include<iostream>
+#include<iomanip>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int t,v;
+    float c;
+    cin>>t>>v;
+    c=(35.74 + 0.6215*t) + (0.4275*t - 35.75) * pow(v,0.16);
+    cout<<fixed<<setprecision(2)<<c;
+    
+}
