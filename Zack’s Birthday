@@ -1,0 +1,73 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+ 	float a;
+ 	int m;
+ 	cin>>a>>m;
+ 	switch(m)
+ 	{
+     	case 1:
+     	{
+     	cout<<fixed<<setprecision(2)<<"Zack's father needs to pay Rs."<<a-(0.2*a);
+     	}
+     	break;
+     	case 2:
+     	{
+     	cout<<fixed<<setprecision(2)<<"Zack's father needs to pay Rs."<<a-(0.1*a);
+     	}
+     	break;
+     	case 3:
+     	{
+     	cout<<fixed<<setprecision(2)<<"Zack's father needs to pay Rs."<<a-(0.1*a);
+     	}
+     	break;
+     	case 4:
+     	{
+     	cout<<fixed<<setprecision(2)<<"Zack's father needs to pay Rs."<<a-(0.1*a);
+     	}
+     	break;
+     	case 5:
+     	{
+     	cout<<fixed<<setprecision(2)<<"Zack's father needs to pay Rs."<<a-(0.35*a);
+     	}
+     	break;
+     	case 6:
+     	if((m==12))
+     	{
+     	cout<<fixed<<setprecision(2)<<"Zack's father needs to pay Rs."<<a-(0.35*a);
+     	}
+     	break;
+     	case 7:
+     	{
+     	cout<<fixed<<setprecision(2)<<"Zack's father needs to pay Rs."<<a-(0.75*a);
+     	}
+     	break;
+     	case 8:
+     	{
+     	cout<<fixed<<setprecision(2)<<"Zack's father needs to pay Rs."<<a-(0.35*a);
+     	}
+     	break;
+     	case 9:
+     	{
+     	cout<<fixed<<setprecision(2)<<"Zack's father needs to pay Rs."<<a;
+     	}
+     	break;
+     	case 10:
+     	{
+     	cout<<fixed<<setprecision(2)<<"Zack's father needs to pay Rs."<<a-(0.3*a);
+     	}
+     	break;
+     	case 11:
+     	{
+     	cout<<fixed<<setprecision(2)<<"Zack's father needs to pay Rs."<<a-(0.3*a);
+     	}
+     	break;
+     	case 12:
+     	{
+     	cout<<fixed<<setprecision(2)<<"Zack's father needs to pay Rs."<<a-(0.35*a);
+     	}
+     	break;
+ 	}
+}
