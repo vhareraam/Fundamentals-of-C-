@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a,b,c;
+    int x,y,z;
+    cin>>a>>b>>c;
+    x=((a/100)*b);
+    cout<<x<<endl;
+    y=(((a-x)*c)/100);
+    cout<<y<<endl;
+    z=(a-(x+y))/3;
+    cout<<z;
+}
